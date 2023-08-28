@@ -1,0 +1,556 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    position: fixed;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    z-index: 5;
+    opacity: 0.9;
+}
+
+#nav-option{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+nav  a{
+    text-decoration: none;
+    color: black;
+}
+
+#more{
+    text-align: center;
+    margin: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 85px;
+}
+
+#pic1{
+    height: 700px;
+    width: 50%;
+    transition: all .3s linear;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+#pic1 img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1);
+    opacity: 0.5;
+}
+
+#pic1:hover img {
+    transform: scale(1.1);
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#pic2{
+    height: 700px;
+    width: 50%;
+    transition: all .3s linear;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+#pic2 img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1);
+    opacity: 0.5;
+}
+#pic2:hover img {
+    transform: scale(1.1);
+}
+
+.title2 {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#pic3{
+    height: 700px;
+    width: 50%;
+    transition: all .3s linear;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+#pic3 img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1);
+    opacity: 0.5;
+}
+#pic3:hover img {
+    transform: scale(1.1);
+}
+
+.title3 {
+    position: absolute;
+    top: 150%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#pic4{
+    height: 700px;
+    width: 50%;
+    transition: all .3s linear;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+
+#pic4 img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1);
+    opacity: 0.5;
+}
+#pic4:hover img {
+    transform: scale(1.1);
+}
+
+.title4 {
+    position: absolute;
+    top: 150%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#prod{
+    display: flex;
+    background-color: black;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 150px;
+}
+
+#detail{
+    text-align: center;
+}
+
+#detail h1{
+    width: 50%;
+    font-size: 2rem;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#bold-det{
+    font-weight: bolder;
+}
+
+.col-red{
+    color: red;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#hero1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 80%;
+    gap: 100px;
+}
+
+#hero1 img{
+    width: 35%;
+}
+
+#hero1 p{
+    width: 85%;
+    font-size: 1.0rem;
+    line-height: 25px;
+}
+
+.org-btn{
+    background-color: orangered;
+    border-style: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+#hero2{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 80%;
+    gap: 100px;
+}
+
+#hero2 img{
+    width: 45%;
+}
+
+#hero2 p{
+    width: 85%;
+    font-size: 1.0rem;
+    line-height: 25px;
+}
+
+#hero3{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 80%;
+    gap: 100px;
+}
+
+#hero3 img{
+    width: 45%;
+}
+
+#hero3 p{
+    width: 85%;
+    font-size: 1.0rem;
+    line-height: 25px;
+}
+
+#poster{
+    background-image: url(https://boostedusa.com/cdn/shop/files/boosted-rev-display_2000x.jpg?v=1646160921);
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 70px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.shop-btn{
+    background-color: orangered;
+    border-style: none;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+    width: 200px;
+}
+
+#video iframe{
+    margin: 25px 150px;
+}
+
+#poster2{
+    position: relative;
+    background-image: url(https://boostedusa.com/cdn/shop/files/evolve-skateboards-1_2000x.jpg?v=1646161047);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+}
+
+#poster2 h1{
+    font-size: 3rem;
+}
+
+.btm-hr{
+    width: 100px;
+}
+
+.cat-title h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.cards{
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cards img{
+    height: 200px;
+    width: 200px;
+}
+
+.col-grey{
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#news{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(184, 181, 181, 0.548);
+    text-align: start;
+     
+}
+
+#news-cont{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+    margin-left: 35%;
+}
+
+#news-cont input{
+    margin-top: 10px;
+    height: 40px;
+    width: 390px;
+    border: rgba(184, 181, 181, 0.8) 0.3px solid;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+#news-cont h1{
+    font-size: 2rem;
+}
+
+#disc{
+    padding-top: 20px;
+    width: 390px;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(38, 37, 37);
+}
+
+#disc a{
+    text-decoration: underline;
+}
+
+#sign-btn{
+    height: 40px;
+    width: 390px;
+    border: none;
+    background-color: orangered;
+    border-radius: 4px;
+    color: white;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+#poster3{
+height: 350px;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+#poster3 img{
+    height: 100px;
+    width: 100px;
+}
+
+.poster3-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 290px;
+    text-align: center;
+}
+
+.poster3-cards h1{
+    font-size: 2rem;
+}
+
+#explore{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: rgba(206, 204, 204, 0.2);
+}
+
+#explore1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 150px;
+    font-size: 14px;
+    line-height: 1.2rem;
+}
+
+#explore1 a{
+    color: rgb(38, 37, 37);
+}
+
+#explore2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 380px;
+}
+
+#explore2 p{
+    color: rgb(38, 37, 37);
+    font-size: 14px;
+    line-height: 1.2rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 12px;
+}
+
+footer img{
+    width: 400px;
+}
+
+#hero1 {
+    transition: all .3s linear;
+    overflow: hidden;
+}
+
+#hero2{
+    transition: all .3s linear;
+    overflow: hidden;
+}
+#hero3{
+    transition: all .3s linear;
+    overflow: hidden;
+}
+#hero1 img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1);
+}
+#hero2 img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1);
+}
+#hero3 img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    transform: scale(1);
+}
+
+#hero1 img:hover  {
+    transform: scale(1.1);
+}
+#hero2 img:hover  {
+    transform: scale(1.1);
+}
+#hero3 img:hover  {
+    transform: scale(1.1);
+}
+
+.link-red:hover {
+    color: orangered;
+    transition-duration: 0.3s;
+}
+.material-symbols-outlined:hover{
+    color: orangered;
+    transition-duration: 0.3s;
+}
+
+.unl{
+    text-decoration: underline;
+}
+
+.org-btn:hover{
+    background-color: gray;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.shop-btn:hover{
+    background-color: gray;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#sign-btn:hover{
+    background-color: rgba(255, 68, 0, 0.8);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
